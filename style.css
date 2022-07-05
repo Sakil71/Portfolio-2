@@ -5,13 +5,14 @@ body{
 }
 h1{
     font-family: 'Titan One', cursive;
-    color: red;
+    color: blue;
     font-size: 50px;
     padding-top:20px;
 
 }
 h2{
     font-size:40px;
+    color: red;
 }
 .badge{
     color: gray;
@@ -39,7 +40,7 @@ a{
     text-decoration: none;
     padding: 4px 15px;
     background-color: #3e8e41;
-    color: yellow;
+    color:gold;
     border-radius: 7px;
     font-weight: 700;
 }
@@ -68,18 +69,34 @@ padding-left: 70px;
 
 }
 .section-3{
+    
     background-color: black;
     color: aliceblue;
     padding-left: 20px;
     padding-top: 10px;
     padding-bottom: 40px;
 }
-.experience{
+.all{
     display: flex;
 }
-.full-stack{
-    width: 50%;
+.experience{
+    width: 100%;
+    margin: 40px;
+    box-shadow: 10px;
+    border: 2px solid gray;
+    ;
+    text-align: center;
+    border-color: blueviolet;
+    padding: 40px;
+    border-radius: 10px;
+}
+#one :hover{
+    cursor: pointer;
+    color: blue;
     
+    
+    display:inline-block;
+    box-shadow: 5px 5px #666;
 }
 
 
