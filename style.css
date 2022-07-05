@@ -89,14 +89,18 @@ padding-left: 70px;
     border-color: blueviolet;
     padding: 40px;
     border-radius: 10px;
+    box-shadow:10px 10px darkslateblue;
 }
 #one :hover{
     cursor: pointer;
     color: blue;
-    
-    
     display:inline-block;
-    box-shadow: 5px 5px #666;
+}
+footer{
+    background-color: black;
+    color: blue;
+    text-align: center;
+    padding-bottom: 30px;
 }
 
 
